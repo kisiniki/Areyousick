@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F14242"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_input"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/sp_rectange_root"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:backgroundTint="#FFF"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="20dp"
+            android:hint="Username"
+            android:paddingLeft="20dp" />
+        <View
+            android:id="@+id/v_saparator"
+            android:background="#E8E9E8"
+            android:layout_below="@id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="20dp"
+            android:backgroundTint="#FFF"
+            android:layout_below="@id/v_saparator"
+            android:hint="********"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_input"
+        android:text="Login"
+        android:layout_centerInParent="true"
+        android:background="@drawable/sp_rectange_root"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/tvLogin"
+        android:textSize="39sp"
+        android:textStyle="italic"
+        android:textColor="#FFF"
+        android:text="Test Your Covid!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"/>
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/rl_input"
+        android:layout_marginBottom="40dp"
+        android:textSize="39sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerInParent="true"
+        android:text="Register"
+        android:background="@drawable/loginview"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

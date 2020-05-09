@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HasilTest"
+    android:background="#F14242">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hasil Test"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="Nama:"
+        android:backgroundTint="#FFF"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/tvUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Umur:"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Alamat:"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+
+    <TextView
+        android:id="@+id/etHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hasil : "
+        android:textSize="24dp"
+        android:textColor="#FFF"/>
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"/>
+</LinearLayout>

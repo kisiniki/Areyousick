@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "861936138682",
+    "firebase_url": "https://are-yousick.firebaseio.com",
+    "project_id": "are-yousick",
+    "storage_bucket": "are-yousick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861936138682:android:07a220533b74c5f35e4583",
+        "android_client_info": {
+          "package_name": "com.example.areyousick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861936138682-tdbrfv4g9vbuvlto4k4md9ckv6q1plll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFzR3pesKV5MlExIcjwZznDS8yFmh37Z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861936138682-tdbrfv4g9vbuvlto4k4md9ckv6q1plll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
